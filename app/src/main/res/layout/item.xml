@@ -25,14 +25,14 @@
 
         <TextView
             style="@style/newsdetailstextstyle"
-            android:text="Written by:" />
+            android:text="@string/write_by" />
 
         <TextView
             android:id="@+id/author_text_view"
             style="@style/newsdetailstextstyle"
             android:text="Wriitin by"
             android:textColor="@color/colorPrimary"
-            tools:text="Author" />
+            tools:text="@string/Author" />
 
     </LinearLayout>
 

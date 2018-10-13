@@ -125,10 +125,7 @@ public class QueryUtils {
                 if (tagsauthor.length() != 0) {
                     JSONObject currenttagsauthor = tagsauthor.getJSONObject(0);
                     author = currenttagsauthor.getString("webTitle");
-                } /* move Check to NewsAdapater ..
-                else {
-                    author = "No Author ..";
-                }*/
+                }
 
                 News news = new News(Title, category, date, url, author);
                 newsList.add(news);
